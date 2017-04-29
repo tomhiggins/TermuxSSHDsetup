@@ -3,21 +3,34 @@ Scripts and notes for setting up and using SSHd on your Android device using Ter
 
 # On your AndroidOS device 
   Install Termux (https://termux.com/)
+  
   Launch Termux
+  
   Enter this  command (automated install)
+  
      > curl -sSL http://tomwsmf.com/termuxsshd/termuxsshdsetup.sh | bash
  
  Or enter these commands (manual install)
      > apt update 
+     
      > apt upgrade
+     
      > termux-setup-storage
+     
      > apt install openssh
-     > touch ~/.ssh/authorized_keys 
+     
+     > touch ~/.ssh/authorized_keys
+     
      > chmod 600 ~/.ssh/authorized_keys
+     
      > chmod 700 ~/.ssh
+     
      > ssh-keygen
+     
      > cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+     
      > chmod 600 ~/.ssh/authorized_keys
+     
      > sshd
 	 	 
 Move the need key to the remote host device you want to connect
@@ -29,7 +42,7 @@ to your Android from
       > ssh -p 8022 -i /path/of/id_rsa IPofYourAndroid 
 
 # To SFTP into Android from the Remote Host
-    Type this command from within a Terminal
+   Type this command from within a Terminal
       > sftp -P 8022 -i /path/of/id_rsa IPofYourAndroid  
      
 # To Mount to the Android/Termux Directories On the Remote Host Device
