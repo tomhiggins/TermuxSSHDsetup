@@ -1,7 +1,7 @@
 # TermuxSSHDsetup
-SCripts and notes for setting up and using SSHd to and from your Android device using Termux
+Scripts and notes for setting up and using SSHd on your Android device using Termux so that you can SSH, SFTP, and SSHFS to your Android
 
-#On your AndroidOS device 
+# On your AndroidOS device 
   Install Termux (https://termux.com/)
   Launch Termux
   Enter this  command (automated install)
