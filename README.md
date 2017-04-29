@@ -42,5 +42,7 @@ to your Android from
 	
 # Links to sources
    SSH Under Termux - https://oliverse.ch/tech/2015/11/06/run-an-ssh-server-on-your-android-with-termux.html
+   
    Termux Storage and Shares - https://termux.com/storage.html
+   
    Termux Help - https://termux.com/help.html
