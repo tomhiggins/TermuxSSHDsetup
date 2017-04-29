@@ -35,19 +35,26 @@ Scripts and notes for setting up and using SSHd on your Android device using Ter
 	 	 
 Move the need key to the remote host device you want to connect
 to your Android from 
+
      > scp ~/.ssh/id_rsa name@remotehost.com:/path/of/id_rsa
 
 # To SSH into Android from the Remote Host
+
    Type this command from within a Terminal
-      > ssh -p 8022 -i /path/of/id_rsa IPofYourAndroid 
+
+     > ssh -p 8022 -i /path/of/id_rsa IPofYourAndroid 
 
 # To SFTP into Android from the Remote Host
-   Type this command from within a Terminal
-      > sftp -P 8022 -i /path/of/id_rsa IPofYourAndroid  
+
+  Type this command from within a Terminal
+
+    > sftp -P 8022 -i /path/of/id_rsa IPofYourAndroid  
      
 # To Mount to the Android/Termux Directories On the Remote Host Device
+
    Make sure you have SSHFS installed 
    Type this command
+
       >sshfs anything@IPofYourAndroid:/data/data/com.termux/files/home/ /path/on/remote/to/mount/ -p 8022 -o IdentityFile=/path/of/id_rsa
    
    Once Mounted you can access the files and directoris on the Android device from any app/program (example, file managers, Atom editor, Libre Office, etc etc)
