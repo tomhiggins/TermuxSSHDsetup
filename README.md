@@ -59,11 +59,12 @@ to your Android from
       >sshfs anything@IPofYourAndroid:/data/data/com.termux/files/home/ /path/on/remote/to/mount/ -p 8022 -o IdentityFile=/path/of/id_rsa
    
    Once Mounted you can access the files and directoris on the Android device from any app/program (example, file managers, Atom editor, Libre Office, etc etc)
-	
-	
+		
 # To Mount to the Android/Termux Directories from a Chromebook / ChromeOS
  
 ![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/raw/master/Screenshot%202017-04-29%20at%205.21.09%20PM.png)
+![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.19.48%20PM.png)
+![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.21.09%20PM.png)
 
 # Links to sources
    SSH Under Termux - https://oliverse.ch/tech/2015/11/06/run-an-ssh-server-on-your-android-with-termux.html
