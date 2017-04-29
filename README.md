@@ -61,6 +61,10 @@ to your Android from
    Once Mounted you can access the files and directoris on the Android device from any app/program (example, file managers, Atom editor, Libre Office, etc etc)
 	
 	
+# To Mount to the Android/Termux Directories from a Chromebook / ChromeOS
+ 
+![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/raw/master/Screenshot%202017-04-29%20at%205.21.09%20PM.png)
+
 # Links to sources
    SSH Under Termux - https://oliverse.ch/tech/2015/11/06/run-an-ssh-server-on-your-android-with-termux.html
    
