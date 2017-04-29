@@ -66,7 +66,14 @@ to your Android from
 - Select the SFTP File System  
 ![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.17.20%20PM.png)
 
-- Fill in the options. 
+- Fill in the options
+  - The Hostname/IP is the IP of the Android
+  - The portnumber is 8022
+  - Select the PublicKey option
+  - You do not need to fill in Username or Password
+  - Paste the contents of id_rsa into the Private Key field
+  - Set the Path to /data/data/com.termux/files/
+  - Click on Mount
 ![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.19.48%20PM.png)
 
 - Enjoy 
