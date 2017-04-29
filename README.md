@@ -1,7 +1,5 @@
 # TermuxSSHDsetup
-Termux app
 ==========
-[![TomWSMF](https://tomwsmf.com)](https://ttomwsmf.com)
 
 Scripts and notes for setting up and using SSHd on your Android device using Termux so that you can SSH, SFTP, and SSHFS to your Android
 
