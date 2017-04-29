@@ -62,7 +62,7 @@ to your Android from
 		
 # To Mount to the Android/Termux Directories from a Chromebook / ChromeOS
  
-![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/raw/master/Screenshot%202017-04-29%20at%205.21.09%20PM.png)
+![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.17.20%20PM.png)
 ![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.19.48%20PM.png)
 ![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.21.09%20PM.png)
 
