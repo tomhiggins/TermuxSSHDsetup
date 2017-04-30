@@ -72,7 +72,8 @@ to your Android from
   - Select the PublicKey option
   - You do not need to fill in Username or Password
   - Paste the contents of id_rsa into the Private Key field
-  - Set the Path to /data/data/com.termux/files/
+  - Set the Path to /data/data/com.termux/files/  for the Termux filespace
+                   or /storage/emulated/0 for the shared Android filespace
   - Click on Mount
 ![alt tag](https://github.com/tomhiggins/TermuxSSHDsetup/blob/master/Screenshot%202017-04-29%20at%205.19.48%20PM.png)
 
