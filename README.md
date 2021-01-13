@@ -12,6 +12,7 @@ Scripts and notes for setting up and using SSHd on your Android device using Ter
      > curl -sSL https://raw.githubusercontent.com/tomhiggins/TermuxSSHDsetup/master/termuxsshdsetup.sh | bash
  
  Or enter these commands (manual install)
+ 
      > apt update 
      
      > apt upgrade
